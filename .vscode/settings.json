@@ -1,66 +1,74 @@
 {
-    "workbench.colorTheme": "One Dark Pro",
-    "tabnine.experimentalAutoImports": true,
-    "emmet.excludeLanguages": [
-      
-      "markdown"],
-    "emmet.preferences": {},
-    "eslint.workingDirectories": [{ "mode": "auto" }],
-  
-    // Settings JSON
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.addMissingImports": true,
-      // For TSLint
-      "source.fixAll.tslint": true,
-      // For Stylelint
-      "source.fixAll.stylelint": true
-    },
-    "eslint.validate": ["javascript", "typescript"],
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact",
-      "typescript": "typescriptreact"
-    },
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.validate": false,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "tabnine.experimentalAutoImports": true,
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.preferences": {},
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+
+  // Settings JSON
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true,
+    // For TSLint
+    "source.fixAll.tslint": true,
+    // For Stylelint
+    "source.fixAll.stylelint": true
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSave": true,
+  "[dart]": {
     "editor.formatOnSave": true,
-    "[dart]": {
-      "editor.formatOnSave": true,
-      "editor.formatOnType": true,
-      "editor.rulers": [80],
-      "editor.selectionHighlight": false,
-      "editor.suggest.snippetsPreventQuickSuggestions": false,
-      "editor.suggestSelection": "first",
-      "editor.tabCompletion": "onlySnippets",
-      "editor.wordBasedSuggestions": false
-    },
-    "prettier.tabWidth": 2,
-    "prettier.useTabs": false,
-    "prettier.semi": true,
-    "prettier.singleQuote": false,
-    "prettier.jsxSingleQuote": false,
-    "prettier.trailingComma": "es5",
-    "prettier.arrowParens": "always",
-  
-    "workbench.iconTheme": "material-icon-theme",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.editorAssociations": {
-      "*.ipynb": "jupyter-notebook"
-    },
-    "notebook.cellToolbarLocation": {
-      "default": "right",
-      "jupyter-notebook": "left"
-    }
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.trailingComma": "es5",
+  "prettier.arrowParens": "always",
+
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
   }
-  
+}
